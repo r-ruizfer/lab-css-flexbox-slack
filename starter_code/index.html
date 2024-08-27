@@ -10,7 +10,7 @@
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
 
   <!-- link your styles -->
-  <link rel="stylesheet" href="./stylesheets/style.css" />
+  <link rel="stylesheet" href="/lab-css-flexbox-slack/starter_code/stylesheets/style.css" />
 
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
@@ -19,6 +19,7 @@
 <body>
   <!-- NAVBAR -->
   <nav>
+    <div id="topPage">
     <div>
       <img src="./images/slack-logo.png" alt="Slack logo" />
 
@@ -38,15 +39,16 @@
       </ul>
     </div>
 
-    <div>
-      <button>
+    <div id="searchMenu">
+      <button class="search">
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
+      <button class="menu">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
-
+  </div>
+  </div>
       <ul hidden>
         <li>
           <a href="#">Sign in</a>
@@ -55,7 +57,7 @@
           <a href="#">Try for free</a>
         </li>
       </ul>
-    </div>
+    
   </nav>
 
 
@@ -66,10 +68,10 @@
 
       <p>Slack is free to try for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="signUp">
+        <button class="email">Sign up with email</button>
 
-        <button>
+        <button class="Google">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
