@@ -8,16 +8,28 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 
     body{
         background-color: #540B51;
+         text-align: center;
     }
 
 
-@media (max-width: 760px) { 
+@media (max-width: 768px) { 
    .search{
     background-color: transparent;
    }
+   .lista{
+    display: none;
+   }
+      
    .menu{
     background-color: transparent;
    }
@@ -42,8 +54,6 @@ background-color: #540B51;
             font-size: 25px;
             text-transform: uppercase;
             
-
-
         }
         .Google{
            display: flex;
@@ -60,7 +70,42 @@ background-color: #540B51;
         .Google image{
             image-resolution: 50%;
         }
-        }
-        
-    }
+        .logo {
+            display: block;
+            max-width: 50%;
+            height: auto;
+            margin: 0 auto;
+            
+            }
+         
+            }
+            .header-content h1{
+                text-align: center;
+                font-size: 3.5em;
+                font-weight: bold;
+                
+                margin-bottom: 20px;
+                color: white; 
+            }
+           .header-content p {
+                font-size: 1.2rem;
+                color: white;
+                font-weight: bold;
+            }
+            #slackfree {
+                font-size: 1.2rem;
+                color: #ECB12F;
+                font-weight: bold;
+            }
+            .sponsor{
+                background-color: #F3EAE2;
+                font-size: 40px;
+                text-align: center;
+            }
+.porcentajes{
+    background-color: white;
 }
+footer{
+  background-color: white;
+}        
+         
